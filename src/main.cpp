@@ -35,7 +35,7 @@ int main() {
   std::cout << '\n';
 
   /* -------- эксперимент ------------------------------------ */
-  std::mt19937 rng(std::random_device{}());
+  std::mt19937 rng(std::random_device {}());
   std::ofstream csv("times.csv");
   csv << "n,getAllPerms,getPerm1,getPerm2\n";
 
