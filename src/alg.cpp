@@ -9,12 +9,6 @@
 #include  <cstdlib>
 #include  "tree.h"
 
-#include "tree.h"
-
-#include <cstdint>
-#include <numeric>
-#include <unordered_map>
-#include <vector>
 
 namespace {
 
