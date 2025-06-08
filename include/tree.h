@@ -5,6 +5,7 @@
 #include <vector>
 #include <algorithm>
 #include <stdexcept>
+#include <cstdint>
 
 class PMTree {
  public:
