@@ -5,14 +5,14 @@
 #include <fstream>
 #include "tree.h"
 
-using clock_t = std::chrono::high_resolution_clock;
+using HighResClock = std::chrono::high_resolution_clock;
 
 template <class F>
 double bench(F&& fn)
 {
-    auto t0 = clock_t::now();
+    auto t0 = HighResClock::now();
     fn();
-    return std::chrono::duration<double>(clock_t::now() - t0).count()*1e3; // мс
+    return std::chrono::duration<double>(HighResClock::now() - t0).count() * 1e3;
 }
 
 int main()
