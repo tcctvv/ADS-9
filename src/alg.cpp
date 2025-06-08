@@ -2,6 +2,7 @@
 #include  <iostream>
 #include <numeric>
 #include <unordered_map>
+#include <cstdint>
 #include  <fstream>
 #include  <locale>
 #include  <cstdlib>
